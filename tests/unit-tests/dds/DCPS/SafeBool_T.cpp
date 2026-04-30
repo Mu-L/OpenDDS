@@ -67,4 +67,8 @@ TEST(dds_DCPS_SafeBool_T, non_virtual_method)
 //   NonVirtualMethod nvm1(true), nvm2(true);
 //   if (nvm1 == nvm2) {}
 //   if (nvm1 != nvm2) {}
+
+//   if (vm1 == dvm1) {}
+//   if (dvm1 == nvm1) {}
+//   if (nvm1 == vm1) {}
 // }
